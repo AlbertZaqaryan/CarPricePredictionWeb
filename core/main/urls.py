@@ -1,6 +1,6 @@
 from django.urls import path
 
-from CarPricePredictionWeb.core.main.views import index, predict
+from main.views import index, predict
 
 urlpatterns = [
     path("", index, name="index"),
